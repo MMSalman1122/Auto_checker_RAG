@@ -24,7 +24,7 @@ os.makedirs(vector_space_dir, exist_ok=True)
 #     os.mkdir(vector_space_dir)
 
 st.set_page_config(page_title="RAG ChatBot", layout="centered")
-st.title("RAG ChatBot (Langchain + Groq)")
+st.title("RAG ChatBot (Student Scripts Auto Checker)")
 
 if 'vectorstore' not in st.session_state:
     st.session_state['vectorstore'] = None
